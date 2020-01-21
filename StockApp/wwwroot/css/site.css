@@ -3,13 +3,19 @@ for details on configuring this project to bundle and minify static web assets. 
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../images/body.jpg");
 }
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
-.body-content {
+.container {
     padding-left: 15px;
     padding-right: 15px;
+    background-color: rgb(31, 30, 30);
+    width: 67%;
 }
 
 /* Carousel */
@@ -34,4 +40,53 @@ body {
     .carousel-caption {
         display: none;
     }
+}
+#home-header{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#banner-img{
+    border: 2px solid green;
+    width:100%;
+    height: auto;
+}
+#register-btn {
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: darkgreen;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+btn:hover {
+    background-color: darkslategray;
+}
+#main-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+}
+.block{
+    border: 1px solid black;
+    width: 25%;
+    height: 32%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-size: contain;
+    color: darkgreen;
+    font-size: x-large;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: -20%;
+    
 }
