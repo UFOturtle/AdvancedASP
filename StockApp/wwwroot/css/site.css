@@ -57,8 +57,10 @@ body {
   top: 4%;
   left: 6%;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-  color: green;
+  color: yellow;
   font-size: 60px;
+  font-family: 'Rock Salt', cursive;
+  margin-top: 12%;
 }
 #register-btn {
 position: absolute;
@@ -94,6 +96,7 @@ btn:hover {
     color: white;
     width: 100%;
     margin-top: -17%;
+    font-family: 'Rock Salt', cursive;
 }
 .block{
     border: 1px solid black;

@@ -54,7 +54,7 @@ using StockApp.Models;
             WriteLiteral("<h1>Register Page</h1>\r\n<div id=\"reg-form\">\r\n    ");
             EndContext();
             BeginContext(49, 722, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "baeaacbcf3ea48fe958c700db5a1efeb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "32ce83760af046e4a46aece1182e37a7", async() => {
                 BeginContext(55, 709, true);
                 WriteLiteral(@"
         <h4><b>Email</b></h4>
