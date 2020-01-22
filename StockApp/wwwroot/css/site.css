@@ -15,7 +15,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     background-color: rgb(31, 30, 30);
-    width: 67%;
+    width: 100%;
 }
 
 /* Carousel */
@@ -52,6 +52,14 @@ body {
     width:100%;
     height: auto;
 }
+#appName{
+  position: absolute;
+  top: 4%;
+  left: 6%;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  color: green;
+  font-size: 60px;
+}
 #register-btn {
 position: absolute;
   top: 50%;
@@ -65,6 +73,11 @@ position: absolute;
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  width: 170px;
+  align-items: center;
+  height: 75px;
+  font-size: xx-large;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 btn:hover {
@@ -75,18 +88,25 @@ btn:hover {
     align-items: center;
     justify-content: space-evenly;
     height: 600px;
+    flex-wrap: wrap;
+}
+#message{
+    color: white;
+    width: 100%;
+    margin-top: -17%;
 }
 .block{
     border: 1px solid black;
     width: 25%;
-    height: 32%;
+    height: 40%;
     display: flex;
-    justify-content: center;
+    text-align: justify;
     padding: 20px;
     background-size: contain;
-    color: darkgreen;
+    background-color: darkgreen;
     font-size: x-large;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     margin-top: -20%;
-    
+    background-repeat: no-repeat;
+    border-radius: 12px;
 }
