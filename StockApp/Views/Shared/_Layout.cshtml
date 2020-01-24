@@ -19,7 +19,7 @@
     </environment>
 </head>
 <body>
-    <nav class="navbar navbar-inverse" style="top: 0; position: fixed;">
+    <nav class="navbar navbar-inverse" style="width:100%; top: 0; ">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -28,7 +28,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-
+                @{
+                    if (DateTime.Now.ToString("dddd") != "Saturday" && DateTime.Now.ToString("dddd") != "Sunday" && TimeSpan.Parse("9:30") < DateTime.Now.TimeOfDay && DateTime.Now.TimeOfDay < TimeSpan.Parse("16:30") ){
+                        @:<h3 style="color: green" >Market Open</h3>
+                    }
+                    else
+                    {
+                        @:<h3 style="color: red">Market Closed</h3>
+                    }
+                    @DateTime.Now.TimeOfDay
+                }
                 <a style="font-family: 'Anton', sans-serif; font-size: 1vim;" asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">G-Trading</a>
                 <img style="width: 10%; margin-top: 3%;"src="../images/logo.png">
             </div>
@@ -48,7 +57,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2020 - StockApp</p>
+            <p style="color: white">&copy; @DateTime.Now.Year - StockApp</p>
         </footer>
     </div>
 

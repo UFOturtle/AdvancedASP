@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\AdvancedAsp\\StockApp\\StockApp.csproj": {}
+    "E:\\AdvancedAsp\\StockApp\\StockApp.csproj": {}
   },
   "projects": {
-    "e:\\AdvancedAsp\\StockApp\\StockApp.csproj": {
+    "E:\\AdvancedAsp\\StockApp\\StockApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\AdvancedAsp\\StockApp\\StockApp.csproj",
+        "projectUniqueName": "E:\\AdvancedAsp\\StockApp\\StockApp.csproj",
         "projectName": "StockApp",
-        "projectPath": "e:\\AdvancedAsp\\StockApp\\StockApp.csproj",
+        "projectPath": "E:\\AdvancedAsp\\StockApp\\StockApp.csproj",
         "packagesPath": "C:\\Users\\firew\\.nuget\\packages\\",
-        "outputPath": "e:\\AdvancedAsp\\StockApp\\obj\\",
+        "outputPath": "E:\\AdvancedAsp\\StockApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\firew\\AppData\\Roaming\\NuGet\\NuGet.Config",
