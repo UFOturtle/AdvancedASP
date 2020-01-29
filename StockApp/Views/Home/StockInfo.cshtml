@@ -1,0 +1,13 @@
+@{
+    ViewBag.Title = "StocksUsed";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Our Advanced Algorithims To Buy and Sell These Stocks</h1>
+
+<ul>
+    @foreach (var stock in ViewBag.Records)
+    {
+        <li>@stock</li>
+    }
+</ul>
