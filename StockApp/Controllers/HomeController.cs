@@ -5,10 +5,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using StockApp.Models;
-using CsvHelper;
 using System.Windows;
 using System.IO;
 using System.Text;
+using CsvHelper;
 
 namespace StockApp.Controllers
 {
@@ -17,21 +17,23 @@ namespace StockApp.Controllers
         //get csv file
         public IActionResult StockInfo()
         {
-            string file = "~/App_Data/companylist.csv";
+
+            string file = "../StockApp/App_Data/companylist.csv";
             List<string> result = new List<string>();
             string value;
-            using(TextReader fileReader = File.OpenText(file)) {
-                var csv = new CsvReader(fileReader);
+            using(TextReader fileReader = System.IO.File.OpenText(file)) {
+                var csv = new CsvReader(fileReader, System.Globalization.CultureInfo);
                 csv.Configuration.HasHeaderRecord = false;
                 while (csv.Read()) {
                     for(int i=0; csv.TryGetField<string>(i, out value); i++) {
                         result.Add(value);
                     }
                 }
-                ViewBag.Records = result;
+                
             }
+            ViewBag.Records = result;
 
-            return view();
+            return View();
         }
         public IActionResult Index()
         {

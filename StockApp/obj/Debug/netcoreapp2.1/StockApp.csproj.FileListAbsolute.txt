@@ -66,3 +66,4 @@ e:\AdvancedAsp\StockApp\obj\Debug\netcoreapp2.1\StockApp.pdb
 e:\AdvancedAsp\StockApp\obj\Debug\netcoreapp2.1\StockApp.csproj.CopyComplete
 e:\AdvancedAsp\StockApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Register.cshtml.g.cs
 G:\AdvancedAsp\StockApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Register.g.cshtml.cs
+G:\AdvancedAsp\StockApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\StockInfo.g.cshtml.cs
