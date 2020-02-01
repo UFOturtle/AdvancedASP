@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",

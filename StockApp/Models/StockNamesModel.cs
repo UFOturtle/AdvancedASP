@@ -5,12 +5,14 @@ namespace StockApp.Models
 {
     public class StockNamesModel
     {
-        public List<Stonk> Stonks {get; set;}
+        public List<Stock>Stocks {get; set;}
+
     }
 
-    public class Stonk 
+    public class Stock 
     {
-        public string Name{get; set;}
         public string Symbol{get; set;}
+        public string Name {get; set;}
     }
+
 }

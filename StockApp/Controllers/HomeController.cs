@@ -9,6 +9,7 @@ using System.Windows;
 using System.IO;
 using System.Text;
 using CsvHelper;
+using Microsoft.VisualBasic;
 
 namespace StockApp.Controllers
 {
@@ -19,19 +20,24 @@ namespace StockApp.Controllers
         {
 
             string file = "../StockApp/App_Data/companylist.csv";
-            List<string> result = new List<string>();
-            string value;
-            using(TextReader fileReader = System.IO.File.OpenText(file)) {
-                var csv = new CsvReader(fileReader, System.Globalization.CultureInfo);
-                csv.Configuration.HasHeaderRecord = false;
-                while (csv.Read()) {
-                    for(int i=0; csv.TryGetField<string>(i, out value); i++) {
-                        result.Add(value);
-                    }
+
+            using(var reader = new StreamReader(file))
+            {
+                List<Stock> stocks = new List<Stock>();
+
+                while (!reader.EndOfStream)
+                {
+                    var line = reader.ReadLine();
+                    var values = line.Split(',');
+
+                    stocks.Add(new Stock { Name = values[1], Symbol = values[0] });
+                 
                 }
-                
+                ViewBag.Records = stocks;
             }
-            ViewBag.Records = result;
+
+
+            
 
             return View();
         }

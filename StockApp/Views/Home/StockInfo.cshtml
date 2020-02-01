@@ -2,12 +2,25 @@
     ViewBag.Title = "StocksUsed";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <h1>Our Advanced Algorithims To Buy and Sell These Stocks</h1>
 
-<ul>
-    @foreach (var stock in ViewBag.Records)
-    {
-        <li>@stock</li>
-    }
-</ul>
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th scope="col">Symbol</th>
+            <th scope="col">Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var stock in ViewBag.Records)
+        {
+            <tr>
+                <td>@stock.Symbol</td>
+                <td>@stock.Name</td>
+            </tr>
+        }
+     
+    </tbody>
+</table>
