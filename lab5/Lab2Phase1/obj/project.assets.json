@@ -11797,19 +11797,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\firew\\.nuget\\packages\\": {}
+    "C:\\Users\\Father\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\AdvancedAsp\\lab4\\Lab2Phase1\\Lab2Phase1.csproj",
+      "projectUniqueName": "F:\\AdvancedAsp\\lab4\\Lab2Phase1\\Lab2Phase1.csproj",
       "projectName": "Lab2Phase1",
-      "projectPath": "e:\\AdvancedAsp\\lab4\\Lab2Phase1\\Lab2Phase1.csproj",
-      "packagesPath": "C:\\Users\\firew\\.nuget\\packages\\",
-      "outputPath": "e:\\AdvancedAsp\\lab4\\Lab2Phase1\\obj\\",
+      "projectPath": "F:\\AdvancedAsp\\lab4\\Lab2Phase1\\Lab2Phase1.csproj",
+      "packagesPath": "C:\\Users\\Father\\.nuget\\packages\\",
+      "outputPath": "F:\\AdvancedAsp\\lab4\\Lab2Phase1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\firew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Father\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -11,13 +11,14 @@ using System.Text;
 using CsvHelper;
 using Microsoft.VisualBasic;
 
+
 namespace StockApp.ViewModels.StockInfo
 {
     public class StockInfoViewModel
     {
         public StockInfoViewModel()
         {
-            List<Stock> Stocks = new List<Stock>();
+            Stocks = new List<Stock>();
 
             string file ="../StockApp/App_Data/companylist.csv";
             using(var reader = new StreamReader(file))
@@ -28,13 +29,12 @@ namespace StockApp.ViewModels.StockInfo
                 {
                     var line = reader.ReadLine();
                     var values = line.Split(',');
-
                     Stocks.Add(new Stock { Name = values[1], Symbol = values[0] });
                 }
             }
-            
+                        
         }
-        public IEnumerable<Stock> Stocks { get; set; }
-      
+        public List<Stock> Stocks { get; set; }
+
     }
 }

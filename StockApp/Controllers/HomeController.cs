@@ -15,12 +15,11 @@ namespace StockApp.Controllers
 {
     public class HomeController : Controller
     {
-        //get csv file
         public IActionResult StockInfo()
-        {     
-            var viewModel = new ViewModels.StockInfo.StockInfoViewModel();
+        {
+            var ViewModel = new ViewModels.StockInfo.StockInfoViewModel();
 
-            return View(viewModel);
+            return View(ViewModel);
         }
         public IActionResult Index()
         {

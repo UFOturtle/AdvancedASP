@@ -36,9 +36,8 @@ namespace Lab2Phase1.Controllers
 
         public IActionResult Languages()
         {
-            var languages = CultureInfo.GetCultures(CultureTypes.SpecificCultures);
-            ViewBag.LanguagesList = languages;
-            return View();
+            var viewModel = new ViewModels.Home.ShowLanguagesViewModel( CultureInfo.GetCultures(CultureTypes.SpecificCultures));
+            return View(viewModel);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

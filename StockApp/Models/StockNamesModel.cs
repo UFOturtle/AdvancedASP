@@ -5,7 +5,7 @@ namespace StockApp.Models
 {
     public class StockNamesModel
     {
-        public List<Stock>Stocks {get; set;}
+        public List<Stock> Stocks {get; set;}
 
     }
 
@@ -15,4 +15,5 @@ namespace StockApp.Models
         public string Name {get; set;}
     }
 
+    
 }
