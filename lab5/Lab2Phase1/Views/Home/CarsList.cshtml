@@ -1,0 +1,15 @@
+@model Lab2Phase1.ViewModels.Home.CarsListViewModel
+
+@Html.ListBox("carsList", ModelExpressionProvider.CarsList);
+
+<h2>Fastest Car</h2>
+<dl>
+    <dt>ID</dt>
+    <dd>@ModelExpressionProvider.FastestCar.Car_ID</dd>
+
+    <dt>Model</dt>
+    <dd>@ModelExpressionProvider.FastestCar.Model</dd>
+
+    <dt>Max Speed</dt>
+    <dd>@ModelExpressionProvider.FastestCar.MaxSpeed</dd>
+</dl>

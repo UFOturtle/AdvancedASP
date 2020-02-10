@@ -57,6 +57,10 @@ namespace StockApp
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+
+                routes.MapRoute("Contact", "Contact", new { controller = "Home", action = "Contact"});
+                routes.MapRoute("StockInfo", "StockInfo", new { controller = "Home", action = "StockInfo"});
+                routes.MapRoute("Index", "Home", new { controller = "Home", action = "Index"});
             });
         }
     }

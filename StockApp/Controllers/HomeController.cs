@@ -41,7 +41,7 @@ namespace StockApp.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "We currently do not have a location.";
 
             return View();
         }
