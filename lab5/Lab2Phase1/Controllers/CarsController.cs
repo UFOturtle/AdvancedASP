@@ -16,7 +16,7 @@ namespace Lab2Phase1.Controllers
         public ActionResult CarsList()
         {
             //factory -> a new instance of the carfactory model
-            var factory = new CarFactory();
+            var factory = new CarContext();
 
             //viewModel -> the viewmodel filled with the cars list
             var viewModel = new CarsListViewModel(factory.Cars);

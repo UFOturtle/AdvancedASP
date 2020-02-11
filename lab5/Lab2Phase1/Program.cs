@@ -7,6 +7,8 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Lab2Phase1.Models;
+using Lab2Phase1.ViewModels.Home;
 
 namespace Lab2Phase1
 {
@@ -15,6 +17,8 @@ namespace Lab2Phase1
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+
+           
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

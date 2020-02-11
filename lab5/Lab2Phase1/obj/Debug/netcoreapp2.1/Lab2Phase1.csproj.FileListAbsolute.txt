@@ -170,3 +170,7 @@ E:\AdvancedAsp\lab5\Lab2Phase1\obj\Debug\netcoreapp2.1\Lab2Phase1.RazorTargetAss
 E:\AdvancedAsp\lab5\Lab2Phase1\obj\Debug\netcoreapp2.1\Lab2Phase1.RazorTargetAssemblyInfo.cs
 E:\AdvancedAsp\lab5\Lab2Phase1\obj\Debug\netcoreapp2.1\Lab2Phase1.Views.pdb
 E:\AdvancedAsp\lab5\Lab2Phase1\obj\Debug\netcoreapp2.1\Lab2Phase1.csproj.CopyComplete
+F:\AdvancedAsp\lab5\Lab2Phase1\obj\Debug\netcoreapp2.1\Lab2Phase1.csprojAssemblyReference.cache
+F:\AdvancedAsp\lab5\Lab2Phase1\obj\Debug\netcoreapp2.1\Lab2Phase1.csproj.CoreCompileInputs.cache
+F:\AdvancedAsp\lab5\Lab2Phase1\obj\Debug\netcoreapp2.1\Lab2Phase1.AssemblyInfoInputs.cache
+F:\AdvancedAsp\lab5\Lab2Phase1\obj\Debug\netcoreapp2.1\Lab2Phase1.AssemblyInfo.cs
