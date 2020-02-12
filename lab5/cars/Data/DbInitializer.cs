@@ -1,7 +1,6 @@
 using cars.Models;
 using System;
 using System.Linq;
-
 namespace cars.Data
 {
     public static class DbInitializer

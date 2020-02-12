@@ -104,3 +104,8 @@ F:\AdvancedAsp\StockApp\bin\Debug\netcoreapp2.1\StockApp.Views.dll
 F:\AdvancedAsp\StockApp\bin\Debug\netcoreapp2.1\StockApp.Views.pdb
 F:\AdvancedAsp\StockApp\obj\Debug\netcoreapp2.1\StockApp.Views.pdb
 F:\AdvancedAsp\StockApp\obj\Debug\netcoreapp2.1\StockApp.csproj.CopyComplete
+G:\AdvancedAsp\StockApp\obj\Debug\netcoreapp2.1\Razor\Views\Users\UsersHome.g.cshtml.cs
+G:\AdvancedAsp\StockApp\obj\Debug\netcoreapp2.1\Razor\Views\Users\Portfolio.g.cshtml.cs
+E:\AdvancedAsp\StockApp\obj\Debug\netcoreapp2.1\Razor\Views\Users\UsersHome.cshtml.g.cs
+E:\AdvancedAsp\StockApp\obj\Debug\netcoreapp2.1\Razor\Views\StocksOwned\Portfolio.cshtml.g.cs
+E:\AdvancedAsp\StockApp\obj\Debug\netcoreapp2.1\Razor\Views\Wallets\MyWallet.cshtml.g.cs

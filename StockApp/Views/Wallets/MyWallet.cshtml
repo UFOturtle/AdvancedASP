@@ -1,0 +1,52 @@
+@model IEnumerable<StockApp.Models.Wallet>  
+  
+@{  
+    ViewData["Title"] = "Index";  
+}  
+  
+<strong>Index</strong>  
+  
+<p>  
+    <a asp-action="Create">Create New</a>  
+</p>  
+<table class="table">  
+    <thead>  
+        <tr>  
+            <th>  
+                @Html.DisplayNameFor(model => model.Wallet_ID)  
+            </th>  
+            <th>  
+                @Html.DisplayNameFor(model => model.BuyingPower)  
+            </th>  
+            <th>  
+                @Html.DisplayNameFor(model => model.Investing)  
+            </th>  
+            <th>  
+                @Html.DisplayNameFor(model => model.userID)  
+            </th>
+            <th></th>  
+        </tr>  
+    </thead>  
+    <tbody>  
+@foreach (var item in Model) {  
+        <tr>  
+            <td>  
+                @Html.DisplayFor(modelItem => item.Wallet_ID)  
+            </td>  
+            <td>  
+                @Html.DisplayFor(modelItem => item.BuyingPower)  
+            </td>  
+            <td>  
+                @Html.DisplayFor(modelItem => item.Investing)  
+            </td>  
+            <td>  
+                @Html.DisplayFor(modelItem => item.userID)  
+            </td>  
+            <td>  
+                @Html.ActionLink("Edit", "Edit", new { id = item.Wallet_ID }) |  
+                @Html.ActionLink("Delete", "DeleteWallet", new { id = item.Wallet_ID }, new { onclick = "return confirm('Are you sure to delete?')" })  
+            </td>  
+        </tr>  
+}  
+    </tbody>  
+</table>  

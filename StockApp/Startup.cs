@@ -61,6 +61,9 @@ namespace StockApp
                 routes.MapRoute("Contact", "Contact", new { controller = "Home", action = "Contact"});
                 routes.MapRoute("StockInfo", "StockInfo", new { controller = "Home", action = "StockInfo"});
                 routes.MapRoute("Index", "Home", new { controller = "Home", action = "Index"});
+                routes.MapRoute("UsersHome", "Users", new { controller = "Users", action = "UsersHome"});
+                routes.MapRoute("Portfolio", "Portfolio", new { controller = "StocksOwned", action = "Portfolio"});
+                routes.MapRoute("Wallets", "MyWallet", new { controller = "Wallets", action = "MyWallet"});
             });
         }
     }

@@ -20516,6 +20516,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\AdvancedAsp\\lab5\\cars\\Views\\Cars\\CarsList.cshtml",
+      "TargetPath": "Views\\Cars\\CarsList.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\AdvancedAsp\\lab5\\cars\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"

@@ -1,0 +1,4 @@
+G:\AdvancedAsp\lab5\cars\obj\Debug\netcoreapp2.1\cars.csprojAssemblyReference.cache
+G:\AdvancedAsp\lab5\cars\obj\Debug\netcoreapp2.1\cars.csproj.CoreCompileInputs.cache
+G:\AdvancedAsp\lab5\cars\obj\Debug\netcoreapp2.1\cars.AssemblyInfoInputs.cache
+G:\AdvancedAsp\lab5\cars\obj\Debug\netcoreapp2.1\cars.AssemblyInfo.cs
